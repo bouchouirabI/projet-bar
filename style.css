@@ -1,0 +1,90 @@
+*{
+    font-family: sans-serif;
+    list-style: none;
+    padding: 0;
+}
+ 
+body{
+
+    background: #3f3d3d;
+}
+.competence{
+    width: 500px;
+    margin: 60px auto;
+    color: white;
+
+}
+.competence li{
+    margin: 10px 0;
+}
+.bar{
+    background: #9c625d;
+    display: block;
+    height: 5px;
+    border: 1px solide rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 10px #f13a3a;
+}
+.bar span {
+    height: 5px;
+    float: left;
+    background: #ee0b0b;
+}
+.java {
+    width: 90%; 
+    animation: java 2s;
+}
+@keyframes java{
+    0%{ 
+        width: 0%;
+    }
+    100%{ 
+        width: 99%;
+    }
+}
+.cobol {
+    width: 80%; 
+    animation: cobol 2s;
+}
+@keyframes cobol{
+    0%{ 
+        width: 0%;
+    }
+    100%{ 
+        width: 99%;
+    }
+}.angular{
+    width: 70%; 
+    animation: angular 2s;
+}
+@keyframes angular{
+    0%{ 
+        width: 0%;
+    }
+    100%{ 
+        width: 99%;
+    }
+}.javascript{
+    width: 80%; 
+    animation: javascript 2s;
+}
+@keyframes javascript{
+    0%{ 
+        width: 0%;
+    }
+    100%{ 
+        width: 99%;
+    }
+}.python{
+    width: 55%; 
+    animation: python 2s;
+}
+@keyframes python{
+    0%{ 
+        width: 0%;
+    }
+    100%{ 
+        width: 99%;
+    }
+}
